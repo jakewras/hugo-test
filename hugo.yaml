@@ -1,0 +1,64 @@
+
+# Hugo configuration file
+baseURL: http://localhost/
+languageCode: en-us
+title: My Hugo Test Site
+
+module:
+  imports:
+  - path: github.com/imfing/hextra
+  - path: github.com/jakewras/hugo-docs1
+    mounts:
+    - source: docs
+      target: content/docs
+  - path: github.com/jakewras/hugo-docs2
+    mounts:
+    - source: docs
+      target: content/docs
+    - source: docs/about.md
+      target: content/about.md
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Docs
+      pageRef: /docs
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 2
+    - name: Contact ↗
+      url: "http://localhost"
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "http://localhost"
+      params:
+        icon: github
+    - name: Twitter
+      weight: 6
+      url: "http://localhost"
+      params:
+        icon: x-twitter
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: true
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: true

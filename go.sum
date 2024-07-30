@@ -1,0 +1,6 @@
+github.com/imfing/hextra v0.8.0 h1:bG2GavmsMAgRRCrm+N4c+m6mBm9KYrgGH0mgaJpIXjM=
+github.com/imfing/hextra v0.8.0/go.mod h1:cEfel3lU/bSx7lTE/+uuR4GJaphyOyiwNR3PTqFTXpI=
+github.com/jakewras/hugo-docs1 v0.0.0-20240730061935-84076bf9ebcf h1:6rAWLEZIqqCwO5u4EH48dKIgw4ISBEpgjQc508YseRA=
+github.com/jakewras/hugo-docs1 v0.0.0-20240730061935-84076bf9ebcf/go.mod h1:sIVNnHt1RSu3Dfa67+M2WGvbFnM4pXkKiN9qQurq7Mc=
+github.com/jakewras/hugo-docs2 v0.0.0-20240730063314-236315ce35da h1:HD+ChvdzTAStdvPP4hdNp3FG1bOMuXaILq4ptStxht4=
+github.com/jakewras/hugo-docs2 v0.0.0-20240730063314-236315ce35da/go.mod h1:eOulKqPxI45yBAYvPot6x8W6q8AHQTE3b4Xj7oAf0xk=
